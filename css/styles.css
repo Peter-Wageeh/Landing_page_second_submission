@@ -36,13 +36,17 @@ body {
 .settings-box {
   position: fixed;
   left: -200px;
-  top: 0;
   background-color: #FFF;
+  top: 0;
   width: 200px;
   z-index: 1000;
   min-height: 100vh;
   transition: .3s;
   border: 1px solid #EEE;
+}
+.spaceFree {
+  height: 12vh;
+  /* position: fixed; */
 }
 .settings-box.open {
   left: 0;
